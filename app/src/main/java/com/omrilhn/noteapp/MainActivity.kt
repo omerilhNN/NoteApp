@@ -19,7 +19,9 @@ import com.omrilhn.noteapp.model.Note
 import com.omrilhn.noteapp.screen.NoteScreen
 import com.omrilhn.noteapp.screen.NoteViewModel
 import com.omrilhn.noteapp.ui.theme.NoteAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint //Dependency container - where we can get all of those dependencies
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
