@@ -125,8 +125,8 @@ fun NoteRow(
                 Text(text = note.title,
                     style = MaterialTheme.typography.bodySmall)
                 Text(text=note.description,style = MaterialTheme.typography.labelSmall)
-                Text(text=note.entryDate.format(DateTimeFormatter.ofPattern("EEE, d MMM"))
-                    ,style = MaterialTheme.typography.headlineSmall)
+//                Text(text=note.entryDate.format(DateTimeFormatter.ofPattern("EEE, d MMM"))
+//                    ,style = MaterialTheme.typography.headlineSmall)
 
             }
     }
